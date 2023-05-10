@@ -5,7 +5,7 @@ import NotFound from "./NotFound";
 
 function ProductDetails() {
   const { id } = useParams();
-  const num = +id;
+  const num = parseInt(id);
   // Find the product with the matching ID
   const product = products.find((p) => p.id === num);
 
