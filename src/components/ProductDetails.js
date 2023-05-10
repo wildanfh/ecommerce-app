@@ -5,9 +5,9 @@ import NotFound from "./NotFound";
 
 function ProductDetails() {
   const { id } = useParams();
-
+  const num = +id;
   // Find the product with the matching ID
-  const product = products.find((p) => p.id == id);
+  const product = products.find((p) => p.id === num);
 
   // Render 404 page if product is not found
   if (!product) {
