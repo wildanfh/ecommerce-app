@@ -1,8 +1,9 @@
 import React from "react";
 
+
 function Header({ title, tagline }) {
   return (
-    <div className="text-slate-700 py-16">
+    <div className="text-slate-700 py-16" data-aos="zoom-in" data-aos-duration="1000">
       <div className="container mx-auto flex flex-col items-center justify-between py-4">
         <div className="flex items-center py-7">
           <h1

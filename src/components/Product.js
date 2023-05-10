@@ -1,10 +1,13 @@
 import React from "react";
 
 function Product({ href, title, description, price, imgSrc }) {
+  
   return (
     <a
       className="h-120 w-72 rounded shadow mx-auto border border-palette-lighter"
       href={href}
+      data-aos="fade-down"
+      data-aos-duration="1500"
     >
       <div className="h-72 border-b-2 border-palette-lighter relative">
         <div
