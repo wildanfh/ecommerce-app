@@ -3,7 +3,7 @@ import React from "react";
 function Product({ href, title, description, price, imgSrc }) {
   return (
     <a
-      className="h-120 w-full rounded shadow mx-auto border border-palette-lighter"
+      className="h-120 w-72 rounded shadow mx-auto border border-palette-lighter"
       href={href}
     >
       <div className="h-72 border-b-2 border-palette-lighter relative">

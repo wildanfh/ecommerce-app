@@ -2,23 +2,23 @@ import React from "react";
 
 function Header({ title, tagline }) {
   return (
-    <div className="text-slate-700 py-24">
+    <div className="text-slate-700 py-16">
       <div className="container mx-auto flex flex-col items-center justify-between py-4">
-        <div className="flex items-center py-10">
+        <div className="flex items-center py-7">
           <h1
-            className="text-3xl sm:text-5xl font-semibold text-rose-600 text-center"
+            className="text-2xl sm:text-4xl font-semibold text-rose-600 text-center"
             style={{ letterSpacing: "1px" }}
           >
             {title}
           </h1>
         </div>
-        <p className="text-xl sm:text-2xl font-light text-center">{tagline}</p>
+        <p className="text-lg sm:text-xl font-light text-center">{tagline}</p>
         <svg
           version="1.1"
           id="Layer_1"
           x="0px"
           y="0px"
-          width="80"
+          width="70"
           viewBox="0 0 192 192"
           enable-background="new 0 0 192 192"
           className="pb-10"
