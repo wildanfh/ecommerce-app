@@ -35,7 +35,7 @@ function Product({ href, title, description, price, imgSrc }) {
         <div className="text-lg text-gray-600 p-4 font-primary font-light">
           {description}
         </div>
-        <div className="text-palette-dark font-primary font-medium text-base absolute bottom-0 right-0 mb-4 pl-8 pr-4 pb-1 pt-2 bg-rose-200 rounded-tl-lg triangle">
+        <div className="text-palette-dark font-primary font-medium text-base absolute bottom-0 right-0 mb-4 pl-8 pr-4 pb-2 pt-2 bg-rose-200 rounded-tl-lg triangle">
           $ <span className="text-lg">{price}</span>
         </div>
       </div>

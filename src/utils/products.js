@@ -1,7 +1,7 @@
 const products = [
   {
     id: 1,
-    href: "/product/the-unicorn",
+    href: "/product/1",
     title: "The Unicorn",
     description: "They exist!",
     price: "9.99",
@@ -9,7 +9,7 @@ const products = [
   },
   {
     id: 2,
-    href: "/product/the-mermaid",
+    href: "/product/2",
     title: "The Mermaid",
     description: "Mythical beauty",
     price: "12.99",
@@ -17,7 +17,7 @@ const products = [
   },
   {
     id: 3,
-    href: "/product/the-dragon",
+    href: "/product/3",
     title: "The Dragon",
     description: "Fierce and majestic",
     price: "14.99",
@@ -25,7 +25,7 @@ const products = [
   },
   {
     id: 4,
-    href: "/product/the-pegasus",
+    href: "/product/4",
     title: "The Pegasus",
     description: "Winged wonder",
     price: "11.99",
@@ -33,7 +33,7 @@ const products = [
   },
   {
     id: 5,
-    href: "/product/the-kraken",
+    href: "/product/5",
     title: "The Kraken",
     description: "Tentacled terror",
     price: "16.99",
@@ -41,7 +41,7 @@ const products = [
   },
   {
     id: 6,
-    href: "/product/the-minotaur",
+    href: "/product/6",
     title: "The Minotaur",
     description: "Half-man, half-bull",
     price: "13.99",
@@ -49,7 +49,7 @@ const products = [
   },
   {
     id: 7,
-    href: "/product/the-chimera",
+    href: "/product/7",
     title: "The Chimera",
     description: "A monstrous mix",
     price: "15.99",
@@ -57,7 +57,7 @@ const products = [
   },
   {
     id: 8,
-    href: "/product/the-sphinx",
+    href: "/product/8",
     title: "The Sphinx",
     description: "Riddle me this",
     price: "10.99",
@@ -65,7 +65,7 @@ const products = [
   },
   {
     id: 9,
-    href: "/product/the-kraken-2",
+    href: "/product/9",
     title: "The Kraken 2",
     description: "Another tentacled terror",
     price: "18.99",
@@ -73,7 +73,7 @@ const products = [
   },
   {
     id: 10,
-    href: "the-leviathan",
+    href: "product/10",
     title: "The Leviathan",
     description: "Whale of a tale",
     price: "17.99",

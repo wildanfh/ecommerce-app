@@ -22,7 +22,7 @@ function Header({ title, tagline }) {
           width="70"
           viewBox="0 0 192 192"
           enable-background="new 0 0 192 192"
-          className="pb-10"
+          className="pb-10 transform duration-500 ease-in-out hover:scale-105"
         >
           <path
             fill="#f87171"

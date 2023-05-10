@@ -8,7 +8,7 @@ function Navbar() {
         <Link to="/" className='flex items-center flex-shrink-0'>
           <img
             className="hidden sm:block w-10 sm:w-16 mr-2"
-            src="img/logo.png"
+            src="/img/logo.png"
             alt="Logo"
           />
           <span className="font-semibold text-rose-600 text-xl sm:text-2xl tracking-tight">
